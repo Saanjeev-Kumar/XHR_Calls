@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script defer src="./op.js"></script>
+    <title>document</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col">
+            <div >
+                <h3> Authors</h3>
+                <button class="btn-primary" onclick="get()">GET</button>
+                <div id="output"></div>
+            </div>
+
+            <div style="margin-left:500px;">
+                <h3>Get By Author Name</h3>
+                <input id="name" type="text" placeholder="Author Name">
+                <div>
+                <button class="btn-primary" onclick="getByAuthorName()">GET</button>
+                <div id="authorByName">
+                </div>
+            </div>
+            </div>
+        
+          
+            <div style="margin-left:500px;">
+                <h3> Post a author</h3><div>
+                <input id="pname" type="text" placeholder="Name"><br>
+                <input id="age" type="text" placeholder="Age"><br>
+                <input id="gender" type="text" placeholder="Gender"><br>
+                <input id="awards" type="text" placeholder="Awards"><br>
+                <button class="btn-primary" onclick="Author()">POST</button></div>
+            </div>
+            <div style="margin-left:500px;">
+                <h3>Update Author</h3>
+                <div>                   
+                    <input id="Authname" type="text" placeholder="Author to Updated"><br>
+                    <p><strong>Update here</strong></p>
+                    <input id="uAge" type="text" placeholder="Author Age"><br>
+                    <input id="uAwards" type="text" placeholder="Author Awards"><br>
+                    <button class="btn-primary" onclick="updateAuthor()">Update</button>
+                   <div id="updateAuthor"></div>
+                </div>
+            </div>
+        
+    </div>
+    </div>
+</body>
+
+</html>
