@@ -1,0 +1,94 @@
+html{
+    background-color: #ddd;
+    font-family: Helvetica;
+  }
+  
+  .body {
+    margin: 20px;
+    font-family: Helvetica;
+    /* background-color: #FAEBEFFF; */
+  }
+  
+  #FORM {
+  
+      border-radius: 5px;
+      padding: 2vw;
+      align-content: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: #f8f9fa;
+  }
+  
+  label {
+    color: crimson;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 2px 10px;
+    border: transparent;
+    border-radius: 50px; 
+  }
+  ul {
+    border: solid 10px violet;
+  }
+  
+  #display {
+     height: 500px; 
+    overflow: scroll;
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #displayBox {
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    padding: 35px;
+    height: 250px;
+    background-color: #ffcc77;
+    color: crimson;
+    font-family: coronet;
+  }
+  
+  #flex-box{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #FORM{
+    margin: 20px;
+    text-align: center;
+  }
+  #name ,
+  #age,
+  #Awards,
+  #nameUpdate,
+  #AwardsUpdate,
+  #search
+  {
+    width: 450px;
+    border: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 10px;
+  }
+  label{
+    margin: 5px;
+  }
+  
+  #postData,
+  #updateData,
+  #getAllData,
+  #getUser,
+  #clear
+  {
+    padding: 5px 30px;
+    border-radius: 20px;
+  }
+  
+  h3{
+    font-family: 'Brush Script MT', cursive;
+  }
